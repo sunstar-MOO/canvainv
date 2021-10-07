@@ -1,0 +1,60 @@
+$nunito: "Nunito", sans-serif;
+$lblue: #acc2e4;
+$lpink: #ebb4d2;
+$white: #e0fcec;
+$lgreen: #b1f8cf;
+$dpurple: #774f65;
+$nunito: "Nunito", serif;
+
+html,
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font: 16px;
+  font-family: $nunito;
+}
+
+header {
+  color: $dpurple;
+  .container {
+    align-items: center;
+    display: flex;
+    background-color: $lpink;
+    padding: 1rem;
+    .title {
+      line-height: 1rem;
+    }
+  }
+  .image {
+    margin-right: 1rem;
+  }
+  img {
+    height: 120px;
+  }
+}
+
+section {
+  padding: 1rem;
+  a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    background-color: $lblue;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 8px;
+  }
+}
+
+footer {
+  color: $dpurple;
+  .container {
+    padding: 1rem;
+    border-top: solid $lpink;
+  }
+
+  img {
+    width: 50px;
+  }
+}
