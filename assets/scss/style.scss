@@ -14,7 +14,10 @@ body {
   font: 16px;
   font-family: $nunito;
 }
-
+body {
+  background-size: cover;
+  background-attachment: fixed;
+}
 header {
   color: $dpurple;
   .container {
@@ -36,6 +39,7 @@ header {
 
 section {
   padding: 1rem;
+  margin-bottom: 1rem;
   a {
     text-decoration: none;
     color: black;

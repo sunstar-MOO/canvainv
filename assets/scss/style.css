@@ -8,6 +8,11 @@ body {
   font-family: "Nunito", serif;
 }
 
+body {
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 header {
   color: #774f65;
 }
@@ -37,6 +42,7 @@ header img {
 
 section {
   padding: 1rem;
+  margin-bottom: 1rem;
 }
 
 section a {
